@@ -4,9 +4,9 @@ from tkinter import ttk
 
 # Set up your Reddit API credentials
 reddit = praw.Reddit(
-        client_id='hlrWNJn-DKPfQKiitdV1qw',
-        client_secret='BOtKuEcl0bOohsuPXgGgD5UREAourQ',
-        user_agent='script:postswitcher:v1.0 (by /u/Radiant-Will793)'
+        client_id='X',
+        client_secret='X',
+        user_agent='X'
     )
 
 
