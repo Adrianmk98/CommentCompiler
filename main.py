@@ -21,10 +21,12 @@ def display_comments(comments):
     user_comments = {}
     for comment in comments:
         author = str(comment.author) if comment.author else "Deleted"
+        # Ignore comments by AutoModerator
+        if author == "AutoModerator":
+            continue
         if author not in user_comments:
             user_comments[author] = []
         user_comments[author].append(comment.body)
-
     return user_comments
 
 
